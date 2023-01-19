@@ -32,7 +32,7 @@ const getAllMembers = async () => {
     dispatch({
       type: "SHOW_LOADING",
     });
-    const {data} = await axios.get('/api/member/view');
+    const {data} = await axios.get('artafila-pos.herokuapp/api/member/view');
     setMembersData(data);
     dispatch({
       type: "HIDE_LOADING",
@@ -74,7 +74,7 @@ useEffect(() => {
         dispatch({
           type: "SHOW_LOADING",
         });
-        const res = await axios.post('/api/member/add', tempProduct);
+        const res = await axios.post('artafila-pos.herokuapp/api/member/add', tempProduct);
         message.success("Member Added Successfully!")
         getAllMembers();
         setOpenAdd(false);

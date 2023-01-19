@@ -111,7 +111,7 @@ const Order = ()=> {
           dispatch({
             type: "SHOW_LOADING",
           });
-          const {data} = await axios.get('/api/product/view');
+          const {data} = await axios.get('artafila-pos.herokuapp/api/product/view');
           setProductData(data);
           dispatch({
             type: "HIDE_LOADING",

@@ -110,7 +110,7 @@ const Cart = () => {
             }
             setDiscount(0)
             setMember(null)
-            await axios.post("/api/transaction/add", newObject);
+            await axios.post("artafila-pos.herokuapp/api/transaction/add", newObject);
             message.success("Bill Generated!");
             handlerDeleteAll(cartItems)
             setDiscount(0)
