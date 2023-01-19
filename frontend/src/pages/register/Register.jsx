@@ -17,7 +17,7 @@ const Register = () => {
       dispatch({
         type: "SHOW_LOADING",
       });
-      await axios.post('artafila-pos.herokuapp/api/profile/register', value);
+      await axios.post('https://artafila-pos.herokuapp.com/api/profile/register', value);
       message.success("Register Successfully!");
       navigate("/");
       dispatch({

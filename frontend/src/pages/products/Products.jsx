@@ -70,7 +70,7 @@ const Products = () => {
       dispatch({
         type: "SHOW_LOADING",
       });
-      const {data} = await axios.get('artafila-pos.herokuapp/api/product/view');
+      const {data} = await axios.get('https://artafila-pos.herokuapp.com/api/product/view');
       setProductData(data);
       dispatch({
         type: "HIDE_LOADING",
@@ -132,7 +132,7 @@ const Products = () => {
         dispatch({
           type: "SHOW_LOADING",
         });
-        await axios.post('artafila-pos.herokuapp/api/product/delete/:id', {productId:tempProduct._id});
+        await axios.post('https://artafila-pos.herokuapp.com/api/product/delete/:id', {productId:tempProduct._id});
         message.success("Product Deleted Successfully!")
         getAllProducts();   
         setTempProduct(false)
@@ -162,7 +162,7 @@ const Products = () => {
       formData.append('item_price', tempProduct.item_price);
       formData.append('stock', tempProduct.stock);
 
-      axios.post('artafila-pos.herokuapp/api/product/add/', formData)
+      axios.post('https://artafila-pos.herokuapp.com/api/product/add/', formData)
           .then(res => {
               console.log(res);
               message.success("Product Added Successfully Yagesyaa!")
@@ -190,7 +190,7 @@ const Products = () => {
         formData.append('category', tempProduct.category);
         formData.append('item_price', tempProduct.item_price);
         formData.append('stock', tempProduct.stock);
-        axios.put(`artafila-pos.herokuapp/api/product/edit/${tempProduct._id}`, formData)
+        axios.put(`https://artafila-pos.herokuapp.com/api/product/edit/${tempProduct._id}`, formData)
             .then(res => {
                 console.log(res);
                 message.success("Update Successfully Yagesyaa!")
