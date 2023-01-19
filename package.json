@@ -1,0 +1,38 @@
+{
+  "name": "mern",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "frontend": "npm start --prefix frontend",
+    "build": "run-p build:**", 
+    "build:app": "concurrently \"npm run server\" \"npm run frontend\"", 
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "author": "P1 - 3B D4 JTK 2020",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "color": "^4.2.3",
+    "concurrently": "^7.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "npm-run-all": "^4.1.5",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

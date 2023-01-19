@@ -1,0 +1,133 @@
+:root {
+    --primaryColor: #EA7C69;
+    --baseBg2: #1F1D2B;
+    --baseBg1: #252836;
+    --baseLine: #393C49;
+    --baseForm: #2D303E;
+    --textGray: #889898;
+    --textLight: #ABBBC2;
+    --textLighter: #E0E6E9;
+    --white: #fff;
+    --baseLogo: #EA7C6929 16%;
+    --logo: linear-gradient(106.37deg, #EB966A 50%, #EA6969 100%);
+    --baseHome: linear-gradient(106.37deg, #3b3f4b .63%,
+            #EA7C69 51.55%,
+            #282c40 90.85%);
+    --glass: linear-gradient(
+      106.37deg,
+      #252836 20%,
+      #3b3f4b 60.55%,
+      #252836 90.85%
+    );
+}
+
+.form{
+    background: var(--baseHome);
+    color: white;
+}
+
+.ant-input{
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+}
+
+.form-group{
+    background-color: var(--baseBg2);
+}
+
+.form h2{
+    color: white;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.form p{
+    color: white;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 0px 0px 30px 0px;
+}
+
+.ant-form-item-label>label {
+color: white;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+}
+
+.add-new {
+    background-color: var(--primaryColor)!important;
+    margin: 0px 0px 30px 155px !important;
+    font-family: 'Barlow';
+    font-style: normal  ;
+    font-weight: 600; 
+    font-size: 14px;
+    line-height: 140%;
+    align-items: center;
+}
+
+.add-new:hover{
+    color: var(--primaryColor)!important;
+}
+
+.form-other{
+    color: white;
+    padding: 0px 0px 0px 142px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.form-other:hover{
+    color: var(--primaryColor);
+}
+
+.ant-form-vertical .ant-form-item-label>label {
+    padding: 10px 0px 0px 10px;
+}
+
+.add-new-regis{
+    background-color: var(--primaryColor)!important;
+    margin: 0px 0px 30px 143px !important;
+    font-family: 'Barlow';
+    font-style: normal  ;
+    font-weight: 600; 
+    font-size: 14px;
+    line-height: 140%;
+    color: white;
+}
+
+.add-new-regis:hover{
+    color: var(--primaryColor)!important;
+    background-color: white!important;
+}
+
+.form-other-regis{
+    color: white;
+    padding: 0px 0px 0px 155px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    display: flex;
+}
+
+.form-other-regis:hover{
+    color: var(--primaryColor);
+}
+
+.ant-btn{
+    border: none;
+}
+

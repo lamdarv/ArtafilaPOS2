@@ -1,0 +1,257 @@
+.cartPage .App{
+  height: 100%;
+}
+
+.cartPage .MainDash{
+  height: calc(100% - 48px);
+}
+
+.cartPage .Content{
+  overflow: auto;
+  height: 300px;
+}
+
+.cartPage .MuiTableContainer-root.body.css-rorn0c-MuiTableContainer-root {
+  overflow-x: auto;
+  width: 100%;
+  height: 300px;
+}
+
+.cartPage .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1fw5qro-MuiPaper-root {
+  padding: 24px 24px 24px 24px;
+  height: 100%;
+}
+
+.cartPage .MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignLeft.MuiTableCell-sizeMedium.css-1ygcj2i-MuiTableCell-root {
+  padding: 0px 25px 16px 0;
+}
+
+.cartPage .MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-1ex1afd-MuiTableCell-root {
+  padding: 0 25px 25px 0 !important;
+  color: var(--white);
+}
+
+.cartPage .custH{
+  width: 40%;
+}
+
+.cartPage .numbH{
+  width: 25%;
+  text-align: center !important;
+}
+
+.cartPage .totalH{
+  width: 20%;
+  text-align: right !important;
+  padding: 0px 10px 16px 24px !important;
+}
+
+.cartPage .taxH{
+  width: 15%;
+  text-align: center !important;
+}
+
+.cartPage .custB{
+  width: 40%;
+}
+
+.cartPage .numbB {
+  width: 25%;
+  vertical-align:middle !important;
+  text-align: center !important;
+}
+
+.cartPage .taxB {
+  width: 15%;
+  vertical-align:middle !important;
+  text-align: center !important;
+}
+
+.cartPage .totalB{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  width: 20%;
+  padding: 0px 10px 25px 24px !important;
+  padding-left: 0px !important;
+  display: table-cell;
+  vertical-align:middle;
+  border-bottom: none;
+  text-align: right;
+  color: var(--white)
+}
+
+.cartPage .CompactCard {
+  display: flex;
+  flex: 1 1;
+  height: 100%;
+  border-radius: 8px;
+  color: white;
+  background: var(--baseBg2);
+  padding: 0 0 0 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.cartPage .productsImage{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 80px;
+  margin-bottom: 0px;
+}
+
+.productsImage>img{
+  display: block;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.CompactCard:hover {
+  box-shadow: none !important;
+}
+
+/* sideDetail*/
+.cartPage .productsDetail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  justify-content: space-between;
+  text-align: left;
+  font-family: 'Barlow';
+}
+
+.minplus>strong{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.payment .MuiTableContainer-root.head.css-rorn0c-MuiTableContainer-root {
+  overflow-x: unset;
+  width: 100%;
+  padding-top: 24px;
+  border-top: 1px solid var(--baseLine);
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.total{
+  text-align: end;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.paymentContent{
+  display: grid;
+  grid-template-columns: 33% 25% 42%;
+}
+
+.cartPage h3 {
+  color: var(--primaryColor);
+}
+
+.cartPage .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+  top: 7px !important;
+}
+
+.cartPage .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root, .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: 'Barlow' !important;
+  font-feature-settings: "tnum" !important;
+  font-variant: tabular-nums !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 16px;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-family: 'Barlow' !important;
+  font-feature-settings: "tnum" !important;
+  font-variant: tabular-nums !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+}
+
+.payment .MuiTableContainer-root.head.rate.css-rorn0c-MuiTableContainer-root {
+  overflow-x: unset;
+  width: 100%;
+  padding-top: unset;
+  border-top: unset;
+  margin-top: unset;
+  margin-bottom: 16px;
+}
+
+.rating {
+  background-color: rgba(255, 255, 255, 0.03);
+  height: 40px;
+  border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.cartPage .MuiDialogActions-root.MuiDialogActions-spacing.css-hlj6pa-MuiDialogActions-root {
+  padding-bottom: 0px;
+  padding-right: 0px;
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+}
+
+.ant-btn.ant-btn-default{
+  text-transform: unset;
+  background-color: rgb(233, 123, 103, 0.23);
+  color: white;
+  font-size: 16px;  
+  font-weight: 500;
+  font-family: 'Barlow';
+  font-variant: tabular-nums;
+}
+
+.ant-btn.ant-btn-default:hover{
+  text-transform: unset;
+  background-color: rgb(233, 123, 103, 0.5);
+  color: white;
+}
+
+@media screen and (width:912px) and (height:1368px)
+{
+  .cartPage .App{
+    overflow: auto;
+    height: 100vh ;
+  }
+}
+
+@media screen and (width:768px) and (height:1024px)
+{
+  .cartPage .App{
+    overflow: auto;
+    height: 100vh ;
+  }
+}
+
+@media screen and (width:820px) and (height:1180px)
+{
+  .cartPage .App{
+    overflow: auto;
+    height: 100vh ;
+  }
+}
+
+
+.cartPage .add-new {
+    background-color: var(--primaryColor)!important;
+    margin: unset !important;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    
+}

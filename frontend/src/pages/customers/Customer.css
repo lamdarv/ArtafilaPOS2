@@ -1,0 +1,19 @@
+.customerPage .gapTop.cust{
+    height: 12px;
+    background: var(--baseBg2);
+    border-radius: 0 0 15px 0;
+  }
+  
+  .customerPage .gapBottom.cust{
+    height: 12px;
+    background: var(--baseBg2);
+    border-radius: 0 15px 0 0;
+  }
+
+  .customerPage .title{
+    margin-bottom: 24px;
+  }
+
+  .customerPage .App{
+    height: 100vh;
+  }

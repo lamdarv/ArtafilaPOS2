@@ -1,0 +1,6 @@
+"scripts": {
+    "server": "nodemon server.js",
+    "frontend": "npm start --prefix frontend",
+    "build": "concurrently \"npm run server\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },

@@ -1,0 +1,221 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0em;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--baseBg2); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1fw5qro-MuiPaper-root{
+    background-color: var(--baseBg2);
+    color: var(--white);
+    -webkit-transition: none;
+    transition: none;
+    border-radius: 8px;
+    box-shadow: none;
+    width: 100%;
+    padding: 33px 24px 24px 24px;
+}
+
+.MuiTableContainer-root.head.css-rorn0c-MuiTableContainer-root{
+    overflow-x: unset;
+    width: 100%;
+    padding-right:6px
+}
+
+.Content{
+    overflow: auto;
+}
+
+.MuiTableContainer-root.body.css-rorn0c-MuiTableContainer-root{
+    overflow-x: auto;
+    width: 100%;
+    height: calc(100vh - 460px);
+}
+
+.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignLeft.MuiTableCell-sizeMedium.titleTable.css-1ygcj2i-MuiTableCell-root{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: none;
+    text-align: left;
+    padding: 0 0 0 0;
+    color: var(--white);
+}
+
+.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignLeft.MuiTableCell-sizeMedium.css-1ygcj2i-MuiTableCell-root{
+    font-family: 'Barlow';
+    font-style: normal  ;
+    font-weight: 600; 
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 0.5px;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 1px solid var(--baseLine);
+    text-align: left;
+    padding: 24px 25px 16px 0;
+    color: var(--white);
+}
+
+.custId{
+    width: 25%;
+}
+
+.custN{
+    width: 25%;
+}
+
+.contN{
+    width: 25%;
+}
+
+.custAd{
+    width: 25%;
+}
+
+
+
+.custIdB{
+    width: 25%;
+}
+
+.custNB{
+    width: 25%;
+}
+
+.contNB{
+    width: 25%;
+}
+
+.custAdB{
+    width: 25%;
+}
+
+.Cust .MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.css-1knaqv7-MuiButtonBase-root-MuiButton-root {
+    width: 149.76px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Barlow';
+    font-feature-settings: "tnum";
+    font-variant: tabular-nums;
+    color: rgba(255, 255, 255, 1);
+    text-transform: unset;
+    padding-left: 0px;
+}
+
+.MuiTableRow-root.css-34nofg-MuiTableRow-root>th{
+    border: none !important;
+}
+
+.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-1ex1afd-MuiTableCell-root{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01071em;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom:none;
+    text-align: left;
+    padding:  24px 25px 16px 0;
+    color: var(--white);
+}
+
+
+.Table td{
+border: none !important;
+}
+
+.Table:first-child {
+border-radius: 0px;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.MuiTablePagination-toolbar.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar{
+    border-top: 2px solid var(--baseLine);
+    padding: unset;
+}
+.MuiTablePagination-root.css-jtlhu6-MuiTablePagination-root{
+    overflow: hidden;
+    color: var(--textLighter);
+    font-size: 0.875rem;
+}
+
+.MuiTablePagination-selectLabel.css-pdct74-MuiTablePagination-selectLabel{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiTablePagination-selectIcon.MuiSelect-iconStandard.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon{
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 0.5em);
+    pointer-events: none;
+    color: var(--textLighter);
+}
+
+/* for iPad Mini */
+@media screen and (width: 768px) and (height: 1024px)
+{
+  .Cust .MuiTableContainer-root.body.css-rorn0c-MuiTableContainer-root{
+    overflow-x: auto;
+    width: 100%;
+    height: calc(100vh - 460px);
+  }
+}
+
+
+/* for iPad Air */
+@media screen and (width: 820px) and (height: 1180px)
+{
+    .MuiTableContainer-root.body.css-rorn0c-MuiTableContainer-root{
+        overflow-x: auto;
+        width: 100%;
+        height: calc(100vh - 460px);
+    }
+}
+
+/* fro surface pro 7 */
+@media screen and (width: 912px) and (height: 1368px)
+{
+    .MuiTableContainer-root.body.css-rorn0c-MuiTableContainer-root{
+        overflow-x: auto;
+        width: 100%;
+        height: calc(100vh - 440px);
+    }
+}

@@ -1,0 +1,62 @@
+.dashPage .App {
+    height: 100%;
+}
+
+.ant-layout-content.site-layout-background{
+    flex: auto;
+    height: 100%;
+}
+
+.MainDash{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.title {
+    height: 10;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--baseLine);
+}
+
+.dashPage .gapTop.dash{
+    height: 12px;
+    background: var(--baseBg2);
+    border-radius: 0 0 15px 0;
+}
+
+.dashPage .gapBottom.dash{
+    height: 12px;
+    background: var(--baseBg2);
+    border-radius: 0 15px 0 0;
+}
+
+.title>h1{ 
+    margin-bottom: 4px;
+    line-height: 39.2px;
+}
+
+.title>b{
+    padding-top: 10px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--textLight);
+}
+
+@media screen and (max-width: 1200px) {
+    .MainDash{
+        justify-content:flex-start;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+    .site-layout-background{
+
+    }
+} */
