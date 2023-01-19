@@ -17,7 +17,7 @@ const Login = () => {
       dispatch({
         type: "SHOW_LOADING",
       });
-      const {data} = await axios.post('artafila-pos.herokuapp/api/profile/login', value);
+      const {data} = await axios.post('https://artafila-pos.herokuapp.com/api/profile/login', value);
       dispatch({
         type: "HIDE_LOADING",
       });
