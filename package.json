@@ -11,7 +11,7 @@
     "build:app": "concurrently \"npm run server\" \"npm run frontend\"", 
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "cd frontend && npm install && npm start"
+    "heroku-postbuild": "npm run server && cd frontend && npm install redux-form --legacy-peer-deps && npm start"
   },
   
   "author": "P1 - 3B D4 JTK 2020",
