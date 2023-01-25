@@ -15,7 +15,7 @@ const Cards = () => {
       dispatch({
         type: "SHOW_LOADING",
       });
-      const {data} = await axios.get('/api/transaction/view');
+      const {data} = await axios.get('https://artafila-pos.herokuapp.com/api/transaction/view');
       setTransData(data);
       dispatch({
         type: "HIDE_LOADING",
